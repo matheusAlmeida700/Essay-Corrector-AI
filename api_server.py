@@ -257,13 +257,12 @@ def analyze_text_api():
             comp1_score + comp2_score + comp3_score + comp4_score + comp5_score
         )
 
-        # (Feedback gerado da mesma forma que antes, mantido sem alterações...)
-
         feedback = "# ANÁLISE DA REDAÇÃO - CRITÉRIOS ENEM\n\n"
 
         feedback += (
             "## Competência 1 - Demonstrar domínio da norma padrão da língua escrita\n"
         )
+        
         feedback += f"Nota: {comp1_score}/200 pontos\n\n"
         if comp1_score < 80:
             feedback += "Demonstra domínio precário da modalidade escrita formal da língua portuguesa, com muitos desvios gramaticais e de convenções da escrita.\n\n"
